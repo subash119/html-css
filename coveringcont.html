@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .wrap{
+            padding: 200px;
+            background: linear-gradient(115deg, rgb(216, 6, 239) 10%, rgb(73, 44, 232) 90%);
+
+        }
+        .main{
+            background: linear-gradient(115deg, rgb(17, 136, 233) 10%, rgb(169, 7, 250) 90%);
+            width: 100%;
+            border-radius: 20px;
+            
+        }
+        .head{
+           
+            margin-top: 15px;
+            padding: 5px;
+            margin-left: 250px;
+            margin-bottom: 5px;
+            text-align: center;
+            width: 50%;
+            color: white;
+            border: 3px solid black;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            background: linear-gradient(115deg, rgb(96, 215, 248) 10%, rgb(237, 62, 132)
+            90%);
+        }
+        input[type="submit"]{
+            background-color: blueviolet;
+            color: white;
+        }
+        .inp{
+            width: 50%;
+            text-align: center;
+           margin-left: 250px;
+           margin-bottom: 5px;
+            padding: 5px;
+            
+           
+        }
+        .inp:hover{
+            background-color: lavender;
+        }
+        .navc{
+            text-decoration: none;
+            height: 50px;
+            background-color: black;
+            font-size: 30px;
+            position: sticky;
+            top: 0px;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 0px;
+
+        }
+        #one, #two, #three, #four{
+            color: white;
+            padding: 50px;
+        }
+        #three{
+            color: aqua;
+        }
+        #one:hover{
+            color: lightgreen;
+        }
+        #two:hover{
+            color: lightcoral;
+        }
+        #three:hover{
+            color: lightsalmon;
+        }
+        #four:hover{
+            color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navc">
+        <a  href="coveringalltil18.html" id="one"  > home</a>
+        <a href="coveringabout.html" id="two"> about us</a>
+        <a href="coveringcont.html" id="three"> contact us</a>
+        <a href="#" id="four"> login</a>
+    </nav>
+    <div class="wrap">
+        <div class="main">
+            <h1 class="head">
+                contact us
+            </h1>
+            <input type="text" class="inp" name="name" placeholder="Name">
+            <input type="email" class="inp" name="email" , placeholder="subash@gmail.com">
+            <input type="contactno" class="inp" name="contact" , placeholder="989876">
+            <textarea name="description" id="description" cols="30" rows="10" class="inp"
+                placeholder="type your message here"></textarea>
+            <input type="submit" class="inp" value="submit">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
